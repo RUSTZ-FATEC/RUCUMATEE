@@ -21,7 +21,7 @@ void loop() {
   if (WiFi.status() == WL_CONNECTED) {
     Serial.println("\n\nRealizando Requisição HTTP GET\n");
 
-    String requestUrl = "https://rucumate.herokuapp.com/";
+    String requestUrl = "https://rucumate-api.vercel.app/";
     https.begin(client, requestUrl);
 
     int httpResponseCode = https.GET();
