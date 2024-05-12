@@ -11,7 +11,7 @@ DHT dht(DHTPIN, DHTTYPE);
 const char *ssid = "-";
 const char *password = "-";
 
-const char *host = "rucumate.herokuapp.com";
+const char *host = "rucumate-api.vercel.app";
 const int httpsPort = 443;
 
 const char fingerprint[] PROGMEM = "4C 55 4D FA EF B6 8F 4B A4 20 50 54 EA 57 18 36 89 66 F0 08";
